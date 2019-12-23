@@ -36,6 +36,7 @@ class App extends Component{ // Here we can write as Component. if we import Com
 
     return (      
       <div className="App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox Placeholder='search monsters' handleChange={this.handleChange}/>
         <CardList monsters={filteredMonsters}/>        
       </div>
